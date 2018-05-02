@@ -1,0 +1,106 @@
+/*---Estilos Generales---*/
+
+body{
+	font-family: 'Roboto', sans-serif;
+	color: #444;
+}
+h1,h2,h3,h4,h5,h6,p{
+	font-family: 'Roboto', sans-serif;
+}
+h1{
+	font-size: /*40px*/2.5rem;
+	font-weight: 300; 
+}
+.h1{
+	font-weight: 300;
+}
+h2{
+	font-size: /*32px*/2rem;
+	font-weight: 300;
+}
+h3{
+	font-size: /*28px*/1.75rem;
+	font-weight: 300;
+}
+h4{
+	font-family: 'Open Sans', sans-serif;
+	font-size: /*24px*/1.5rem;
+	font-weight: 400;
+}
+p{
+	font-weight: 300;
+}
+.card-block .display-1{
+	font-size: 6.25rem;
+}
+
+/*----Párrafo escondido----*/
+
+.escondido{
+	display: none;
+}
+
+/*-----fondo a-----*/
+
+.fondo-a{
+	transition: all ease .3s;
+}
+.fondo-a:hover{
+	background: #3c8980;
+	border-radius: 5px;
+}
+
+
+/*-- Slide --*/
+.fondo{
+	background: url('../img/foto1.jpg');
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+}
+.fondo-2{
+	background-color: rgba(0,0,0,.5);
+	height: 100vh;
+}
+.btn{
+	font-size: 1.25rem;
+	font-weight: 300;
+}
+.pb-25{
+	padding-bottom: 2.5rem;
+}
+
+/*----- Colores -----*/
+.bg-fondo-claro{
+	background: #fefaec;
+}
+.bg-danger{
+	background: #f38181 !important;
+}
+.bg-morado{
+	background: #625772;
+}
+.bg-celeste{
+	background: #a9eee6;
+}
+.bg-celeste:hover{
+	background: #3c8980;
+}
+.bg-celeste2{
+	background: #a9eee6;
+}
+
+/*------ Banner ------*/
+.iconos{
+	font-size: 3rem;
+}
+
+/*---- Tabla de Precios ----*/
+.card{
+	border: none;
+}
+
+/*---- Formulario ----*/
+.form-control{
+	border: 1px solid rgba(0,0,0,1);
+}
